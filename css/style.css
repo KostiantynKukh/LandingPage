@@ -1,0 +1,119 @@
+html {
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/*BTN START*/
+.darker-btn {
+    background: #111B47;
+    padding: 5px 0;
+    width: 100%;
+    border: 2px solid #111B47;
+    border-radius: 2px;
+    outline: none;
+    color: #fff;
+}
+.darker-btn:hover, .darker-btn:active, .darker-btn:focus {
+    background: transparent;
+    border: 2px solid #111B47;
+    color: #111B47;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.lighter-btn {
+    background: transparent;
+    padding: 5px 0;
+    width: 100%;
+    border: 2px solid #111B47;
+    border-radius: 2px;
+    outline: none;
+    color: #111B47;
+}
+.lighter-btn:hover, .lighter-btn:active, .lighter-btn:focus {
+    background: #111B47;
+    border: 2px solid #111B47;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+/*BTN END*/
+/*HEADER START*/
+
+/* HEADER-TOP START*/
+.header {
+    max-width: 1440px;
+    min-height: 1110px;
+    margin: 0 auto;
+    background: #fff url('../img/intro-bg.svg') no-repeat right top;
+    background-size: 70%;
+}
+.header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    margin-bottom: 260px;
+}
+.header-nav {
+    width: 245px;
+}
+.header-nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav-link {
+    font-size: 1.4em;
+    color: #505F98;
+}
+.header-nav-link:hover {
+    color: #14215c;
+}
+.header-top-logo {
+    font-weight: 900;
+    font-size: 2.6em;
+    color: #37447E;
+}
+.header-top-logo:hover {
+    color: #505F98;
+    cursor: pointer;
+}
+.header-top-btn {
+    max-width: 160px;
+    font-size: 1.2em;
+}
+/* HEADER-TOP END*/
+/* INTRO START */
+.intro-title {
+    font-weight: 500;
+    font-size: 5em;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+    max-width: 539px;
+    margin-bottom: 20px;
+}
+.intro-desc {
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+    max-width: 539px;
+    margin-bottom: 69px; 
+}
+.intro-btn {
+    max-width: 189px;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 26px;
+}
+
+/* INTRO END */
+/*HEADER END*/
+
+
+
+
