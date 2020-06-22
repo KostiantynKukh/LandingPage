@@ -3,8 +3,9 @@ html {
     font-size: 10px;
 }
 .wrap {
-    max-width: 1110px;
+    max-width: 1150px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /*BTN START*/
@@ -74,17 +75,27 @@ html {
 /* HEADER-TOP START*/
 .header {
     max-width: 1440px;
-    min-height: 1040px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    
+}
+.header-intro-bg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    min-height: 1110px;
     background: #fff url('../img/intro-bg.svg') no-repeat right top;
     background-size: 71%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 .header-top {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px 0 0;
-    margin-bottom: 260px;
     align-items: center;
 }
 .nav {
@@ -132,7 +143,18 @@ html {
     font-size: 1.2em;
 }
 /* HEADER-TOP END*/
+/*HEADER END*/
+
+/* MAIN START  */
 /* INTRO START */
+.main {
+    position: relative;
+    z-index: 2;
+}
+.intro {
+    margin-bottom: 388px;
+    padding-top: 260px;
+}
 .intro-title {
     font-weight: 500;
     font-size: 5em;
@@ -157,9 +179,7 @@ html {
     line-height: 26px;
 }
 /* INTRO END */
-/*HEADER END*/
 
-/* MAIN START  */
 /* FIRST-BLOCK START */
 .main {
     max-width: 1440px;
@@ -167,10 +187,14 @@ html {
 }
 .first-block {
     padding: 160px 0;
-    background: #fff url('../img/first-block-bg.svg') no-repeat center right;
+    background: #fff url('../img/first-block-bg.svg') no-repeat center right;    
+}
+.first-block-wrapper {
+    max-width: 540px;
 }
 .first-block-title {
-    margin-bottom: 16px;
+    margin-bottom: 16px;    
+    line-height: 48px;
 }
 .first-block-desc {
     max-width: 540px;
@@ -178,10 +202,12 @@ html {
 }
 .first-block-cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .first-block-card {
     max-width: 255px;
-    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .card-icon {
     max-width: 36px;
@@ -306,7 +332,7 @@ html {
     width: 16px;
     height: 16px;
     transform: scale(1);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .social-icon:hover {
     transform: scale(2);
@@ -348,5 +374,14 @@ html {
 }
 /* FOOTER END  */
 
-
+/* ABOUT PAGE START  */
+.first-block-about {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-block-about-info {
+    max-width: 520px;
+}
+/* ABOUT PAGE END  */
 
