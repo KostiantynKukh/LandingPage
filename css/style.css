@@ -492,6 +492,7 @@ html {
         display: block;      
         width: 36px;
         height: 36px;
+        background: #F3F6FF url('../img/close.svg') no-repeat center center;
         background: #F3F6FF url('../img/open-menu.svg') no-repeat center center;
         background-size: cover; 
         transition: .5s;
@@ -546,7 +547,6 @@ html {
     }
     .block-title {
         line-height: 40px;
-    }
-   
+    }   
 }
 /* MEDIA BREAKPOINTS START  */
